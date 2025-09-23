@@ -1,21 +1,21 @@
 Covid Dashboard Interativo
- Descrição
+📊 Descrição
 
-Este projeto apresenta um painel interativo de análise da COVID-19, desenvolvido em Jupyter Notebook. O objetivo é consolidar dados de casos confirmados, mortes e recuperações, permitindo exploração visual, comparações regionais e a prática de storytelling com dados.
+Este projeto apresenta um painel interativo de análise da COVID-19, desenvolvido em Jupyter Notebook. O objetivo é consolidar dados de casos confirmados, óbitos e recuperações, permitindo análise temporal, comparação entre regiões e storytelling com dados.
 
-Funcionalidades
+🚀 Funcionalidades
 
-Tratamento e limpeza de dados públicos de COVID-19.
+Tratamento e limpeza de dados públicos da COVID-19.
 
-Visualizações interativas (linhas, barras, mapas, heatmaps).
+Visualizações interativas: séries temporais, gráficos comparativos e tabelas.
 
-Comparações entre diferentes regiões e períodos.
+Comparação entre estados e regiões.
 
-Filtros dinâmicos para exploração personalizada.
+Uso de métricas como médias móveis (7 dias) para suavizar tendências.
 
-Notebook interativo pronto para execução no Google Colab ou Jupyter.
+Notebook pronto para execução no Google Colab ou Jupyter.
 
- Tecnologias Utilizadas
+🛠️ Tecnologias Utilizadas
 
 Python
 
@@ -27,37 +27,31 @@ Jupyter Notebook
 
 Git & GitHub
 
+📂 Estrutura do Projeto
 Covid-Dashboard/
-│── Covid-Dashboard Interativo.ipynb   # Notebook principal
-│── data/                              # Dados utilizados (se aplicável)
-│── imgs/                              # Gráficos e capturas de tela
-│── README.md                          # Este documento
+├─ imgs/
+│  └─ covid_dashboard_page1.png   # Imagem do dashboard
+├─ Covid-Dashboard Interativo.ipynb   # Notebook principal
+└─ README.md
 
+📷 Resultado
+Visão Geral do Dashboard
 
- Como Executar
-
-Clone o repositório:
-
-git clone https://github.com/BrenoHenridev/Covid-Dashboard.git
-cd Covid-Dashboard
-
-
-Instale as dependências:
-
-pip install -r requirements.txt
-
-
-Abra o notebook:
-
-jupyter notebook "Covid-Dashboard Interativo.ipynb"
-
-
-Explore os gráficos e gere seus próprios insights.
-
- Insights Obtidos
+📈 Insights Obtidos
 
 Identificação de picos e quedas em períodos críticos da pandemia.
 
 Comparação de curvas regionais para avaliar o impacto de políticas públicas.
 
-Construção de visualizações que auxiliam no storytelling e comunicação de dados.
+Uso de médias móveis para facilitar a interpretação.
+
+📥 Como Executar
+# 1) Clonar o repositório
+git clone https://github.com/BrenoHenridev/Covid-Dashboard.git
+cd Covid-Dashboard
+
+# 2) Instalar dependências
+pip install -r requirements.txt
+
+# 3) Abrir o notebook
+jupyter notebook "Covid-Dashboard Interativo.ipynb"
