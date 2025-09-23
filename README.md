@@ -38,14 +38,7 @@ Construir um **painel interativo** para analisar e visualizar dados da COVID-19,
 └── README.md # Descrição do projeto
 
 
----
-
-## Resultado  
-
-**Covid Dashboard - Indicadores e Tendências da Pandemia**  
-![Covid Dashboard](./covid_dashboard_page1.png)
-
-  
+--- 
 
 ---
 
