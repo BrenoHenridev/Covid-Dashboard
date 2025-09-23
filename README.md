@@ -1,27 +1,8 @@
-🦠 Covid Dashboard Interativo
-🎯 Objetivo
+Covid Dashboard Interativo
 
-Construir um painel interativo em Python para:
+Este projeto foi desenvolvido como parte do curso de formação em Análise de Dados da EBAC, com foco em análise exploratória, visualização de dados e storytelling com informações de saúde pública.
 
-Analisar dados da COVID-19.
-
-Explorar tendências de casos confirmados, óbitos e vacinação.
-
-Facilitar a interpretação de séries temporais através de médias móveis.
-
-🔎 Etapas Realizadas
-
-Coleta e carregamento dos dados em Jupyter Notebook.
-
-Limpeza e preparação dos dados (remoção de inconsistências e valores nulos).
-
-Criação de métricas derivadas como média móvel de 7 dias.
-
-Construção de visualizações interativas (gráficos de linha, tabelas e comparativos).
-
-Consolidação em um dashboard final com indicadores principais.
-
-🛠️ Tecnologias Utilizadas
+Tecnologias Utilizadas
 
 Python
 
@@ -35,45 +16,44 @@ Plotly
 
 Jupyter Notebook
 
-Git & GitHub
+Git e GitHub
 
-📂 Estrutura do Projeto
-Covid-Dashboard/
-├─ imgs/
-│  └─ covid_dashboard_page1.png     # Imagem do dashboard consolidado
-├─ Covid-Dashboard Interativo.ipynb # Notebook principal
-└─ README.md
+Objetivo
 
-📊 Resultado
-Visão Geral do Dashboard
+Construir um painel interativo para analisar e visualizar dados da COVID-19, explorando tendências de casos confirmados, óbitos e vacinação, além de destacar padrões relevantes através de médias móveis (7 dias).
 
-O painel apresenta:
+Etapas Realizadas
 
-Evolução de casos confirmados e óbitos.
+Coleta e carregamento dos dados em Jupyter Notebook
 
-Médias móveis (7 dias) para suavizar oscilações.
+Limpeza e preparação dos dados (remoção de inconsistências e valores nulos)
 
-Taxas de vacinação (1ª dose, 2ª dose e reforço).
+Criação de métricas derivadas, como médias móveis (7 dias)
 
-Ranking dos estados mais impactados.
+Construção de gráficos de linha e comparativos regionais
 
-📈 Principais Insights
+Consolidação em um dashboard interativo com indicadores principais
 
-A série temporal evidencia períodos críticos com picos de casos e mortes.
+Versionamento completo com Git e GitHub
 
-As médias móveis destacam tendências reais além do ruído diário.
+Estrutura do Projeto
+├── imgs/
+│   └── covid_dashboard_page1.png   # Imagem do dashboard consolidado
+├── Covid-Dashboard Interativo.ipynb # Notebook principal
+└── README.md                        # Descrição do projeto
 
-O comparativo entre estados mostra diferenças regionais significativas.
+Resultado
 
-A vacinação demonstra impacto direto na redução dos indicadores.
+Covid Dashboard - Indicadores e Tendências da Pandemia
 
-⚙️ Como Executar
-# 1) Clonar o repositório
-git clone https://github.com/BrenoHenridev/Covid-Dashboard.git
-cd Covid-Dashboard
 
-# 2) Instalar dependências
-pip install -r requirements.txt
+Contribuição
 
-# 3) Abrir o notebook
-jupyter notebook "Covid-Dashboard Interativo.ipynb"
+Desenvolvido por Breno Henrique
+LinkedIn
+
+GitHub
+
+Observação
+
+Este projeto tem caráter didático, utilizando dados de forma simulada para prática de análise e visualização.
