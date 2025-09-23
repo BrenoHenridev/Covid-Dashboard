@@ -1,21 +1,21 @@
 Covid Dashboard Interativo
-📊 Descrição
+ Objetivo
 
-Este projeto apresenta um painel interativo de análise da COVID-19, desenvolvido em Jupyter Notebook. O objetivo é consolidar dados de casos confirmados, óbitos e recuperações, permitindo análise temporal, comparação entre regiões e storytelling com dados.
+Construir um painel interativo em Python para analisar e visualizar dados da COVID-19, explorando tendências de casos confirmados, óbitos e vacinação ao longo do tempo.
 
-🚀 Funcionalidades
+ Etapas Realizadas
 
-Tratamento e limpeza de dados públicos da COVID-19.
+Coleta e carregamento de dados em Jupyter Notebook.
 
-Visualizações interativas: séries temporais, gráficos comparativos e tabelas.
+Limpeza e preparação dos dados (remoção de inconsistências e tratamento de nulos).
 
-Comparação entre estados e regiões.
+Criação de métricas derivadas como médias móveis (7 dias) para suavizar tendências.
 
-Uso de métricas como médias móveis (7 dias) para suavizar tendências.
+Desenvolvimento de gráficos interativos para análise temporal e comparativa.
 
-Notebook pronto para execução no Google Colab ou Jupyter.
+Construção de um dashboard consolidado com indicadores principais.
 
-🛠️ Tecnologias Utilizadas
+ Tecnologias Utilizadas
 
 Python
 
@@ -27,25 +27,37 @@ Jupyter Notebook
 
 Git & GitHub
 
-📂 Estrutura do Projeto
 Covid-Dashboard/
 ├─ imgs/
-│  └─ covid_dashboard_page1.png   # Imagem do dashboard
-├─ Covid-Dashboard Interativo.ipynb   # Notebook principal
+│  └─ covid_dashboard_page1.png     # Imagem do dashboard consolidado
+├─ Covid-Dashboard Interativo.ipynb # Notebook principal
 └─ README.md
 
-📷 Resultado
+
+ Resultado
 Visão Geral do Dashboard
 
-📈 Insights Obtidos
+O painel apresenta:
 
-Identificação de picos e quedas em períodos críticos da pandemia.
+Evolução de casos confirmados e óbitos.
 
-Comparação de curvas regionais para avaliar o impacto de políticas públicas.
+Médias móveis (7 dias) para suavizar oscilações diárias.
 
-Uso de médias móveis para facilitar a interpretação.
+Taxas de vacinação (1ª dose, 2ª dose, reforço).
 
-📥 Como Executar
+Tabela com ranking de estados mais impactados.
+
+ Principais Insights
+
+A série temporal mostra períodos críticos da pandemia com picos elevados de casos e óbitos.
+
+As médias móveis facilitam a identificação de tendências reais além do ruído diário.
+
+O comparativo por estados evidencia diferenças regionais significativas no impacto da pandemia.
+
+As métricas de vacinação ajudam a correlacionar cobertura vacinal com queda nos indicadores.
+
+Como Executar
 # 1) Clonar o repositório
 git clone https://github.com/BrenoHenridev/Covid-Dashboard.git
 cd Covid-Dashboard
